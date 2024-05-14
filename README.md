@@ -29,6 +29,11 @@ Generate the scaffold in a folder for the project with `yo upendodnn`. Select So
 To compile and create the install package, open the Visual Studio project and build in release.  The install package will be in the /Website/Installs/Module folder along with a "symbols" package for debugging.  If DNN is installed in the Website folder the package will be available to install from persona bar Settings > Extensions and select Available Extensions.
 
 ## Release Notes
+### Version 1.0.4
+	- Added playback speed
+	- Fixed minor issues
+	- Updated libraries and packages
+
 ### Version 1.0.0
 	- Initial Release
 

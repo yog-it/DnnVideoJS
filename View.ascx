@@ -5,7 +5,7 @@
 <dnn:DnnJsInclude ID="jsVideoJS" runat="server" FilePath="//vjs.zencdn.net/7.17.0/video.min.js" />
 <dnn:DnnCssInclude id="cssVideoJS" runat="server" filepath="//vjs.zencdn.net/7.17.0/video-js.min.css" />
 <asp:Panel ID="pnlVideo" runat="server" CssClass="video-container">
-    <video id="vPlayer" runat="server" class="video-js vjs-big-play-centered video-player" data-setup='{"controls": true, "autoplay": false, "preload": "none", "fluid": true}'>
+    <video id="vPlayer" runat="server" class="video-js vjs-big-play-centered video-player" data-setup='{"controls": true, "autoplay": false, "preload": "none", "fluid": true, "playbackRates": [0.5, 1, 1.5, 2] }'>
         <source id="vSource" runat="server" type="audio/mp4" />
         <track kind="captions" id="vTrack" runat="server" srclang="en" label="English" default>
         <p class="vjs-no-js"><asp:Literal ID="plNoJS" runat="server"></asp:Literal></p>
