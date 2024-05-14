@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="YogIt.Modules.VideoJs" type="Module" version="1.0.0">
+    <package name="YogIt.Modules.VideoJs" type="Module" version="1.0.4">
       <friendlyName>VideoJs</friendlyName>
       <description>
         <![CDATA[<p>Configure and play videos in DNN portals using VideoJS.</p>]]>
@@ -88,7 +88,7 @@
             <attributes>
               <businessControllerClass>YogIt.Modules.VideoJs.Components.FeatureController, YogIt.Modules.VideoJs</businessControllerClass>
               <desktopModuleID>[DESKTOPMODULEID]</desktopModuleID>
-              <upgradeVersionsList>1.0.0</upgradeVersionsList>
+              <upgradeVersionsList>1.0.0,1.0.4</upgradeVersionsList>
             </attributes>
           </eventMessage>
         </component>
@@ -98,7 +98,7 @@
             <assembly>
               <name>YogIt.Modules.VideoJs.dll</name>
               <path>bin</path>
-              <version>1.0.0</version>
+              <version>1.0.4</version>
             </assembly>
           </assemblies>
         </component>
