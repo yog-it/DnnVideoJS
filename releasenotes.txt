@@ -1,5 +1,11 @@
 
 <h2>VideoJs Modules Extension for DNN</h2>
+<h3>Version 1.0.4</h3>
+<ul>
+	<li>Added playback speed</li>
+	<li>Fixed minor issues</li>
+	<li>Updated libraries and packages</li>
+</ul>
 <h3>Version 1.0.0</h3>
 <ul>
 	<li>Initial Release</li>
